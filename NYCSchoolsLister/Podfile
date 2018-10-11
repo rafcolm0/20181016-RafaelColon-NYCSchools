@@ -19,6 +19,9 @@ target 'NYCSchoolsLister' do
   target 'NYCSchoolsListerUITests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'SwiftyJSON'
+    pod 'Alamofire'
+    pod 'Toast-Swift'
   end
 
 end
