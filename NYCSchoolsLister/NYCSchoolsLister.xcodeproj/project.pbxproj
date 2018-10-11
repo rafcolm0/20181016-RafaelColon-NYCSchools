@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BCE5A21FC71D8CBAC891FBE /* Pods_NYCSchoolsLister.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638FDA59CB315428B0B7318E /* Pods_NYCSchoolsLister.framework */; };
+		5186CFAF216FC1AB00D529E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5186CFAE216FC1AB00D529E5 /* AppDelegate.swift */; };
+		5186CFB1216FC1AB00D529E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5186CFB0216FC1AB00D529E5 /* ViewController.swift */; };
+		5186CFB4216FC1AB00D529E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5186CFB2216FC1AB00D529E5 /* Main.storyboard */; };
+		5186CFB7216FC1AB00D529E5 /* NYCSchoolsLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5186CFB5216FC1AB00D529E5 /* NYCSchoolsLister.xcdatamodeld */; };
+		5186CFB9216FC1AD00D529E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5186CFB8216FC1AD00D529E5 /* Assets.xcassets */; };
+		5186CFBC216FC1AD00D529E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5186CFBA216FC1AD00D529E5 /* LaunchScreen.storyboard */; };
+		5186CFC7216FC1AD00D529E5 /* NYCSchoolsListerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5186CFC6216FC1AD00D529E5 /* NYCSchoolsListerTests.swift */; };
+		5186CFD2216FC1AD00D529E5 /* NYCSchoolsListerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5186CFD1216FC1AD00D529E5 /* NYCSchoolsListerUITests.swift */; };
+		51C86DC4216FD7FF002C5E44 /* SchoolDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C86DC3216FD7FF002C5E44 /* SchoolDetailView.swift */; };
+		51C86DC5216FD7FF002C5E44 /* SchoolDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C86DC3216FD7FF002C5E44 /* SchoolDetailView.swift */; };
+		51C86DC6216FD7FF002C5E44 /* SchoolDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C86DC3216FD7FF002C5E44 /* SchoolDetailView.swift */; };
+		8DE82826C143062F93CCC194 /* Pods_NYCSchoolsListerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06A990E183FE8E5C90E77D4 /* Pods_NYCSchoolsListerTests.framework */; };
+		FAC66A3001BF4DA070FE5B45 /* Pods_NYCSchoolsListerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5913C977374C092AE6F9BD /* Pods_NYCSchoolsListerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5186CFC3216FC1AD00D529E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5186CFA3216FC1AB00D529E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5186CFAA216FC1AB00D529E5;
+			remoteInfo = NYCSchoolsLister;
+		};
+		5186CFCE216FC1AD00D529E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5186CFA3216FC1AB00D529E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5186CFAA216FC1AB00D529E5;
+			remoteInfo = NYCSchoolsLister;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2102B15F7290A47E1A1FB467 /* Pods-NYCSchoolsLister.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCSchoolsLister.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYCSchoolsLister/Pods-NYCSchoolsLister.debug.xcconfig"; sourceTree = "<group>"; };
+		2E2B5C9F7DB1CA30F63E790C /* Pods-NYCSchoolsListerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCSchoolsListerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYCSchoolsListerTests/Pods-NYCSchoolsListerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DE153B98F7EC47B767B7B0E /* Pods-NYCSchoolsListerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCSchoolsListerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYCSchoolsListerUITests/Pods-NYCSchoolsListerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5186CFAB216FC1AB00D529E5 /* NYCSchoolsLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYCSchoolsLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5186CFAE216FC1AB00D529E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5186CFB0216FC1AB00D529E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5186CFB3216FC1AB00D529E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5186CFB6216FC1AB00D529E5 /* NYCSchoolsLister.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NYCSchoolsLister.xcdatamodel; sourceTree = "<group>"; };
+		5186CFB8216FC1AD00D529E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5186CFBB216FC1AD00D529E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5186CFBD216FC1AD00D529E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5186CFC2216FC1AD00D529E5 /* NYCSchoolsListerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYCSchoolsListerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5186CFC6216FC1AD00D529E5 /* NYCSchoolsListerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolsListerTests.swift; sourceTree = "<group>"; };
+		5186CFC8216FC1AD00D529E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5186CFCD216FC1AD00D529E5 /* NYCSchoolsListerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYCSchoolsListerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5186CFD1216FC1AD00D529E5 /* NYCSchoolsListerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolsListerUITests.swift; sourceTree = "<group>"; };
+		5186CFD3216FC1AD00D529E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C86DC3216FD7FF002C5E44 /* SchoolDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailView.swift; sourceTree = "<group>"; };
+		638FDA59CB315428B0B7318E /* Pods_NYCSchoolsLister.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYCSchoolsLister.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB69B9095E9B7E6DE97BBDD /* Pods-NYCSchoolsListerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCSchoolsListerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYCSchoolsListerTests/Pods-NYCSchoolsListerTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7EE13B9266E81CB358EC90C /* Pods-NYCSchoolsLister.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCSchoolsLister.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYCSchoolsLister/Pods-NYCSchoolsLister.release.xcconfig"; sourceTree = "<group>"; };
+		D06A990E183FE8E5C90E77D4 /* Pods_NYCSchoolsListerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYCSchoolsListerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB935E816DEC904F661DC859 /* Pods-NYCSchoolsListerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYCSchoolsListerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYCSchoolsListerUITests/Pods-NYCSchoolsListerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE5913C977374C092AE6F9BD /* Pods_NYCSchoolsListerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYCSchoolsListerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5186CFA8216FC1AB00D529E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCE5A21FC71D8CBAC891FBE /* Pods_NYCSchoolsLister.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5186CFBF216FC1AD00D529E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE82826C143062F93CCC194 /* Pods_NYCSchoolsListerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5186CFCA216FC1AD00D529E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC66A3001BF4DA070FE5B45 /* Pods_NYCSchoolsListerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5186CFA2216FC1AB00D529E5 = {
+			isa = PBXGroup;
+			children = (
+				5186CFAD216FC1AB00D529E5 /* NYCSchoolsLister */,
+				5186CFC5216FC1AD00D529E5 /* NYCSchoolsListerTests */,
+				5186CFD0216FC1AD00D529E5 /* NYCSchoolsListerUITests */,
+				5186CFAC216FC1AB00D529E5 /* Products */,
+				AFD84D8E14DFF679A8273D5D /* Pods */,
+				F024B4647005EDAF899A341E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5186CFAC216FC1AB00D529E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5186CFAB216FC1AB00D529E5 /* NYCSchoolsLister.app */,
+				5186CFC2216FC1AD00D529E5 /* NYCSchoolsListerTests.xctest */,
+				5186CFCD216FC1AD00D529E5 /* NYCSchoolsListerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5186CFAD216FC1AB00D529E5 /* NYCSchoolsLister */ = {
+			isa = PBXGroup;
+			children = (
+				5186CFAE216FC1AB00D529E5 /* AppDelegate.swift */,
+				5186CFB0216FC1AB00D529E5 /* ViewController.swift */,
+				5186CFB2216FC1AB00D529E5 /* Main.storyboard */,
+				5186CFB8216FC1AD00D529E5 /* Assets.xcassets */,
+				5186CFBA216FC1AD00D529E5 /* LaunchScreen.storyboard */,
+				5186CFBD216FC1AD00D529E5 /* Info.plist */,
+				5186CFB5216FC1AB00D529E5 /* NYCSchoolsLister.xcdatamodeld */,
+				51C86DC3216FD7FF002C5E44 /* SchoolDetailView.swift */,
+			);
+			path = NYCSchoolsLister;
+			sourceTree = "<group>";
+		};
+		5186CFC5216FC1AD00D529E5 /* NYCSchoolsListerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5186CFC6216FC1AD00D529E5 /* NYCSchoolsListerTests.swift */,
+				5186CFC8216FC1AD00D529E5 /* Info.plist */,
+			);
+			path = NYCSchoolsListerTests;
+			sourceTree = "<group>";
+		};
+		5186CFD0216FC1AD00D529E5 /* NYCSchoolsListerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5186CFD1216FC1AD00D529E5 /* NYCSchoolsListerUITests.swift */,
+				5186CFD3216FC1AD00D529E5 /* Info.plist */,
+			);
+			path = NYCSchoolsListerUITests;
+			sourceTree = "<group>";
+		};
+		AFD84D8E14DFF679A8273D5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2102B15F7290A47E1A1FB467 /* Pods-NYCSchoolsLister.debug.xcconfig */,
+				B7EE13B9266E81CB358EC90C /* Pods-NYCSchoolsLister.release.xcconfig */,
+				2E2B5C9F7DB1CA30F63E790C /* Pods-NYCSchoolsListerTests.debug.xcconfig */,
+				9BB69B9095E9B7E6DE97BBDD /* Pods-NYCSchoolsListerTests.release.xcconfig */,
+				FB935E816DEC904F661DC859 /* Pods-NYCSchoolsListerUITests.debug.xcconfig */,
+				3DE153B98F7EC47B767B7B0E /* Pods-NYCSchoolsListerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F024B4647005EDAF899A341E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				638FDA59CB315428B0B7318E /* Pods_NYCSchoolsLister.framework */,
+				D06A990E183FE8E5C90E77D4 /* Pods_NYCSchoolsListerTests.framework */,
+				FE5913C977374C092AE6F9BD /* Pods_NYCSchoolsListerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5186CFAA216FC1AB00D529E5 /* NYCSchoolsLister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5186CFD6216FC1AD00D529E5 /* Build configuration list for PBXNativeTarget "NYCSchoolsLister" */;
+			buildPhases = (
+				67D0FF22CB5CE751E0395884 /* [CP] Check Pods Manifest.lock */,
+				5186CFA7216FC1AB00D529E5 /* Sources */,
+				5186CFA8216FC1AB00D529E5 /* Frameworks */,
+				5186CFA9216FC1AB00D529E5 /* Resources */,
+				32A3C0AB761BD0EC9DAA09BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYCSchoolsLister;
+			productName = NYCSchoolsLister;
+			productReference = 5186CFAB216FC1AB00D529E5 /* NYCSchoolsLister.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5186CFC1216FC1AD00D529E5 /* NYCSchoolsListerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5186CFD9216FC1AD00D529E5 /* Build configuration list for PBXNativeTarget "NYCSchoolsListerTests" */;
+			buildPhases = (
+				5AC2E838B39D36462B1C0324 /* [CP] Check Pods Manifest.lock */,
+				5186CFBE216FC1AD00D529E5 /* Sources */,
+				5186CFBF216FC1AD00D529E5 /* Frameworks */,
+				5186CFC0216FC1AD00D529E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5186CFC4216FC1AD00D529E5 /* PBXTargetDependency */,
+			);
+			name = NYCSchoolsListerTests;
+			productName = NYCSchoolsListerTests;
+			productReference = 5186CFC2216FC1AD00D529E5 /* NYCSchoolsListerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5186CFCC216FC1AD00D529E5 /* NYCSchoolsListerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5186CFDC216FC1AD00D529E5 /* Build configuration list for PBXNativeTarget "NYCSchoolsListerUITests" */;
+			buildPhases = (
+				084F2F78613A2DCF2586A844 /* [CP] Check Pods Manifest.lock */,
+				5186CFC9216FC1AD00D529E5 /* Sources */,
+				5186CFCA216FC1AD00D529E5 /* Frameworks */,
+				5186CFCB216FC1AD00D529E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5186CFCF216FC1AD00D529E5 /* PBXTargetDependency */,
+			);
+			name = NYCSchoolsListerUITests;
+			productName = NYCSchoolsListerUITests;
+			productReference = 5186CFCD216FC1AD00D529E5 /* NYCSchoolsListerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5186CFA3216FC1AB00D529E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = rafcolm_;
+				TargetAttributes = {
+					5186CFAA216FC1AB00D529E5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					5186CFC1216FC1AD00D529E5 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5186CFAA216FC1AB00D529E5;
+					};
+					5186CFCC216FC1AD00D529E5 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5186CFAA216FC1AB00D529E5;
+					};
+				};
+			};
+			buildConfigurationList = 5186CFA6216FC1AB00D529E5 /* Build configuration list for PBXProject "NYCSchoolsLister" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5186CFA2216FC1AB00D529E5;
+			productRefGroup = 5186CFAC216FC1AB00D529E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5186CFAA216FC1AB00D529E5 /* NYCSchoolsLister */,
+				5186CFC1216FC1AD00D529E5 /* NYCSchoolsListerTests */,
+				5186CFCC216FC1AD00D529E5 /* NYCSchoolsListerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5186CFA9216FC1AB00D529E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5186CFBC216FC1AD00D529E5 /* LaunchScreen.storyboard in Resources */,
+				5186CFB9216FC1AD00D529E5 /* Assets.xcassets in Resources */,
+				5186CFB4216FC1AB00D529E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5186CFC0216FC1AD00D529E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5186CFCB216FC1AD00D529E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		084F2F78613A2DCF2586A844 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYCSchoolsListerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32A3C0AB761BD0EC9DAA09BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NYCSchoolsLister/Pods-NYCSchoolsLister-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYCSchoolsLister/Pods-NYCSchoolsLister-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC2E838B39D36462B1C0324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYCSchoolsListerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D0FF22CB5CE751E0395884 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYCSchoolsLister-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5186CFA7216FC1AB00D529E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5186CFB1216FC1AB00D529E5 /* ViewController.swift in Sources */,
+				5186CFAF216FC1AB00D529E5 /* AppDelegate.swift in Sources */,
+				5186CFB7216FC1AB00D529E5 /* NYCSchoolsLister.xcdatamodeld in Sources */,
+				51C86DC4216FD7FF002C5E44 /* SchoolDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5186CFBE216FC1AD00D529E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5186CFC7216FC1AD00D529E5 /* NYCSchoolsListerTests.swift in Sources */,
+				51C86DC5216FD7FF002C5E44 /* SchoolDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5186CFC9216FC1AD00D529E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5186CFD2216FC1AD00D529E5 /* NYCSchoolsListerUITests.swift in Sources */,
+				51C86DC6216FD7FF002C5E44 /* SchoolDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5186CFC4216FC1AD00D529E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5186CFAA216FC1AB00D529E5 /* NYCSchoolsLister */;
+			targetProxy = 5186CFC3216FC1AD00D529E5 /* PBXContainerItemProxy */;
+		};
+		5186CFCF216FC1AD00D529E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5186CFAA216FC1AB00D529E5 /* NYCSchoolsLister */;
+			targetProxy = 5186CFCE216FC1AD00D529E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5186CFB2216FC1AB00D529E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5186CFB3216FC1AB00D529E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5186CFBA216FC1AD00D529E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5186CFBB216FC1AD00D529E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5186CFD4216FC1AD00D529E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5186CFD5216FC1AD00D529E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5186CFD7216FC1AD00D529E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2102B15F7290A47E1A1FB467 /* Pods-NYCSchoolsLister.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4PF645YZ5;
+				INFOPLIST_FILE = NYCSchoolsLister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NYCSchoolsLister.NYCSchoolsLister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5186CFD8216FC1AD00D529E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7EE13B9266E81CB358EC90C /* Pods-NYCSchoolsLister.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4PF645YZ5;
+				INFOPLIST_FILE = NYCSchoolsLister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NYCSchoolsLister.NYCSchoolsLister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5186CFDA216FC1AD00D529E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E2B5C9F7DB1CA30F63E790C /* Pods-NYCSchoolsListerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4PF645YZ5;
+				INFOPLIST_FILE = NYCSchoolsListerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NYCSchoolsLister.NYCSchoolsListerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYCSchoolsLister.app/NYCSchoolsLister";
+			};
+			name = Debug;
+		};
+		5186CFDB216FC1AD00D529E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB69B9095E9B7E6DE97BBDD /* Pods-NYCSchoolsListerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4PF645YZ5;
+				INFOPLIST_FILE = NYCSchoolsListerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NYCSchoolsLister.NYCSchoolsListerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYCSchoolsLister.app/NYCSchoolsLister";
+			};
+			name = Release;
+		};
+		5186CFDD216FC1AD00D529E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB935E816DEC904F661DC859 /* Pods-NYCSchoolsListerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4PF645YZ5;
+				INFOPLIST_FILE = NYCSchoolsListerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NYCSchoolsLister.NYCSchoolsListerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NYCSchoolsLister;
+			};
+			name = Debug;
+		};
+		5186CFDE216FC1AD00D529E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE153B98F7EC47B767B7B0E /* Pods-NYCSchoolsListerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4PF645YZ5;
+				INFOPLIST_FILE = NYCSchoolsListerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NYCSchoolsLister.NYCSchoolsListerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NYCSchoolsLister;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5186CFA6216FC1AB00D529E5 /* Build configuration list for PBXProject "NYCSchoolsLister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5186CFD4216FC1AD00D529E5 /* Debug */,
+				5186CFD5216FC1AD00D529E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5186CFD6216FC1AD00D529E5 /* Build configuration list for PBXNativeTarget "NYCSchoolsLister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5186CFD7216FC1AD00D529E5 /* Debug */,
+				5186CFD8216FC1AD00D529E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5186CFD9216FC1AD00D529E5 /* Build configuration list for PBXNativeTarget "NYCSchoolsListerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5186CFDA216FC1AD00D529E5 /* Debug */,
+				5186CFDB216FC1AD00D529E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5186CFDC216FC1AD00D529E5 /* Build configuration list for PBXNativeTarget "NYCSchoolsListerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5186CFDD216FC1AD00D529E5 /* Debug */,
+				5186CFDE216FC1AD00D529E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5186CFB5216FC1AB00D529E5 /* NYCSchoolsLister.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5186CFB6216FC1AB00D529E5 /* NYCSchoolsLister.xcdatamodel */,
+			);
+			currentVersion = 5186CFB6216FC1AB00D529E5 /* NYCSchoolsLister.xcdatamodel */;
+			path = NYCSchoolsLister.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5186CFA3216FC1AB00D529E5 /* Project object */;
+}

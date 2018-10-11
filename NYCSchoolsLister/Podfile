@@ -1,0 +1,24 @@
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+
+target 'NYCSchoolsLister' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'SwiftyJSON'
+  pod 'Alamofire'
+  pod 'Toast-Swift'
+
+  # Pods for NYCSchoolsLister
+
+  target 'NYCSchoolsListerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'NYCSchoolsListerUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NYCSchoolsLister" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nGL-vW-Wq7" userLabel="schoolList">
+                                <rect key="frame" x="0.0" y="82" width="414" height="780"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="pMp-52-bWS" userLabel="loadingIcon">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NYC Shools" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6qe-TS-sgG">
+                                <rect key="frame" x="142" y="53" width="130" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nGL-vW-Wq7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0U1-n1-DYM"/>
+                            <constraint firstItem="pMp-52-bWS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5bc-Gj-aiN"/>
+                            <constraint firstItem="6qe-TS-sgG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="9" id="D7u-PL-cEp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6qe-TS-sgG" secondAttribute="trailing" constant="142" id="EOn-Yu-56s"/>
+                            <constraint firstItem="nGL-vW-Wq7" firstAttribute="top" secondItem="6qe-TS-sgG" secondAttribute="bottom" constant="8" id="Kz1-XP-MEZ"/>
+                            <constraint firstItem="nGL-vW-Wq7" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Rea-3d-Ghx"/>
+                            <constraint firstItem="nGL-vW-Wq7" firstAttribute="top" secondItem="6qe-TS-sgG" secondAttribute="bottom" constant="8" id="Vqi-g5-C51"/>
+                            <constraint firstItem="pMp-52-bWS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cMP-Rj-b3n"/>
+                            <constraint firstItem="nGL-vW-Wq7" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="vz5-YY-on3"/>
+                            <constraint firstItem="6qe-TS-sgG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="142" id="xJx-oS-Bt2"/>
+                            <constraint firstItem="6qe-TS-sgG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z4Q-xa-QfA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="loadingIcon" destination="pMp-52-bWS" id="A18-2V-DSK"/>
+                        <outlet property="schoolTableView" destination="nGL-vW-Wq7" id="Yig-Bu-Q4R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="132.68365817091455"/>
+        </scene>
+        <!--SchoolDetailView-->
+        <scene sceneID="Rh1-5E-Ycw">
+            <objects>
+                <viewController storyboardIdentifier="SchoolDetailView" id="jXc-bx-TX2" userLabel="SchoolDetailView" customClass="SchoolDetailView" customModule="NYCSchoolsLister" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AJt-lh-RKA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="School Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZv-Fx-X1a" userLabel="schoolName">
+                                <rect key="frame" x="68" y="44" width="326" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.27058823529999998" green="0.56862745100000001" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="u59-Nx-gh0" userLabel="schoolDetails">
+                                <rect key="frame" x="20" y="73" width="374" height="789"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJN-pX-m1N">
+                                <rect key="frame" x="20" y="39" width="40" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="lT4-ht-8oR"/>
+                                </constraints>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="doneClicked:" destination="jXc-bx-TX2" eventType="touchUpInside" id="psp-NG-x1p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="MPj-nl-TGX" firstAttribute="trailing" secondItem="u59-Nx-gh0" secondAttribute="trailing" constant="20" id="J04-HW-MIm"/>
+                            <constraint firstItem="u59-Nx-gh0" firstAttribute="leading" secondItem="MPj-nl-TGX" secondAttribute="leading" constant="20" id="KOQ-75-vH4"/>
+                            <constraint firstItem="MPj-nl-TGX" firstAttribute="trailing" secondItem="sZv-Fx-X1a" secondAttribute="trailing" constant="20" id="Lsq-As-xgA"/>
+                            <constraint firstItem="u59-Nx-gh0" firstAttribute="bottom" secondItem="MPj-nl-TGX" secondAttribute="bottom" id="Ome-mL-KIe"/>
+                            <constraint firstItem="EJN-pX-m1N" firstAttribute="leading" secondItem="MPj-nl-TGX" secondAttribute="leading" constant="20" id="R34-KO-0Hi"/>
+                            <constraint firstItem="u59-Nx-gh0" firstAttribute="top" secondItem="EJN-pX-m1N" secondAttribute="bottom" constant="4" id="WoX-Tg-cY8"/>
+                            <constraint firstItem="EJN-pX-m1N" firstAttribute="top" secondItem="AJt-lh-RKA" secondAttribute="top" constant="39" id="fjk-bQ-5Km"/>
+                            <constraint firstItem="sZv-Fx-X1a" firstAttribute="leading" secondItem="EJN-pX-m1N" secondAttribute="trailing" constant="8" id="iS9-kL-1IU"/>
+                            <constraint firstItem="u59-Nx-gh0" firstAttribute="top" secondItem="sZv-Fx-X1a" secondAttribute="bottom" constant="8" id="r7J-nK-TvU"/>
+                            <constraint firstItem="sZv-Fx-X1a" firstAttribute="top" secondItem="MPj-nl-TGX" secondAttribute="top" id="wu5-SZ-fx4"/>
+                            <constraint firstItem="u59-Nx-gh0" firstAttribute="centerX" secondItem="AJt-lh-RKA" secondAttribute="centerX" id="xqD-X3-Q9l"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MPj-nl-TGX"/>
+                    </view>
+                    <connections>
+                        <outlet property="schoolDetailTable" destination="u59-Nx-gh0" id="02u-tf-XKo"/>
+                        <outlet property="schoolName" destination="sZv-Fx-X1a" id="C4y-s9-H8x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UjI-2F-5CQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="143.97321428571428"/>
+        </scene>
+    </scenes>
+</document>
