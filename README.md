@@ -1,6 +1,5 @@
 # NYCSchoolsLister
 * Developer: Rafael J. Colon
-* Ressume attached to repo.
 
 ## NOTES:
  * Tech used: Swift, Alamofire, SwiftyJSON, Toast_Swift
